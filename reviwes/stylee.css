@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #1b1616;
+    border: #170606;
+
+}
+body
+{
+    background-image: url("food2.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position:inherit;
+    background-size:cover;
+    border-radius: 10px;
+}
+header *
+{
+   color:#15064e;
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   align-items: center;
+   font-size:30px ;
+   font-weight:100px;
+   margin-left: 5px;
+   display: flex;
+}
+.logos h2
+{
+    float: left;
+    padding-left: 187px;
+    width:60px;
+    height: auto;
+    font-weight: 100px;
+    font-size: 30px;
+    color: #d4d3da;
+    margin-top: -35px;
+    
+}
+.row
+{
+    width: 100px;
+    padding: 0px 570px;
+    margin-top: -115;
+}
+.container{
+    
+    min-height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    font-size: 100px;
+    font-weight:100px;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    z-index: 1;
+    padding: 10px 0px;
+
+
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+   }
+.nav-bar ul li
+{
+    list-style: none;
+   
+}
+
+.nav-bar ul li a
+{
+
+    border-radius: 5px;
+    padding:10px 18px ;
+    font-family: sans-serif;
+    font-weight: 200px;
+    font-size: 17px;
+    color: #b6d9e2;
+   
+    text-decoration: none;
+    }
+.nav-bar ul li a:hover
+{
+    background-color: rgb(234, 152, 220);
+
+}
+
+.content{
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1{
+   font-size: 60px;
+    color: #929f66;
+    font-weight: 500px;
+    font-family: sans-serif;
+ 
+}
+.content p{
+    font-size:25px ;
+    color: #94abaf;
+    font-weight:400px;
+    
+}
+.content h2{
+    font-size:25px ;
+    color: #6398ce;
+    font-weight:100px;
+    
+
+}
+.content a{
+    font-size:20px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    border-color: #110606;
+    letter-spacing: 2.5px;
+    padding:12px 20px;
+    background-color: rgb(41, 143, 109);
+    border-radius: 6px;
+    color: rgb(34, 15, 44);
+}
+.content a:hover
+{
+    background-color: #d08080;
+
+}
+.text-footer {
+
+   text-align: center;
+   font-family: 'Ubuntu', sans-serif;
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+   color: white;
+}
+  
+.background{
+   background: #170606;
+   background-size: cover;
+   background-blend-mode:darken;
+}
