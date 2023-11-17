@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+button{
+    outline:none;
+    border:none;
+    cursor:grab;
+
+}
+body{
+    min-height: 100vh;
+    background:linear-gradient(135deg,#092150,#400250);
+    padding: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    max-width: 30rem;
+    width: 90%;
+    background-color: aqua;
+    padding: 1rem;
+}
+h2{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(138, 30, 138);
+    margin-bottom: 1.5rem;
+}
+h1{
+    text-align: center;
+    margin-right: 150px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: blue;
+    margin-bottom: 1.5rem;
+}
+    .btn_box{
+        display: flex;
+        margin-bottom: 1.5rem;
+        
+    }
+    #todolist_input::placeholder{
+        font-size: 1.1rem;
+        color: rgb(32, 13, 113);
+    }
+    #todolist_input{
+        width:70%;
+        padding: 1rem;
+        outline: none;
+        border:2px solid burlywood;
+        font-size: 1.2rem;
+        color: rgb(18, 25, 22);
+
+    }
+    .add_btn{
+        width:30%;
+        background-color: blueviolet;
+        color: antiquewhite;
+        font-size: 1.5rem;
+
+    }
+    .todo_list_lis{
+        background-color: rgb(169, 144, 192);
+        color: aliceblue;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        padding: 1rem;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    li div:last-child{
+        display: flex;
+        gap:1rem;
+
+    }
+    .remove,.done{
+        background-color: rgb(28, 31, 31);
+        color: antiquewhite;
+        font-size: 1rem;
+        border:2px solid rgb(28, 28, 27);
+        padding: 0.2rem 0.4rem;
+    }
